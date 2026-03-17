@@ -1,0 +1,19 @@
+{
+ "intents":[
+  {
+   "tag":"greeting",
+   "patterns":["Hi","Hello","Hey"],
+   "responses":["Hello! How can I assist you?"]
+  },
+  {
+   "tag":"order",
+   "patterns":["Track order","Order status"],
+   "responses":["Please provide your order ID."]
+  },
+  {
+   "tag":"refund",
+   "patterns":["Refund","Return product"],
+   "responses":["Your refund will be processed within 5 days."]
+  }
+ ]
+}
